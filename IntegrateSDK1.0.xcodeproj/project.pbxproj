@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB408CC1211B432100EEF31C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB408CC0211B432100EEF31C /* FBSDKShareKit.framework */; };
 		DBC6753C210E15F7000227A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC6753B210E15F7000227A0 /* AppDelegate.swift */; };
 		DBC6753E210E15F7000227A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC6753D210E15F7000227A0 /* ViewController.swift */; };
 		DBC67541210E15F7000227A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC6753F210E15F7000227A0 /* Main.storyboard */; };
 		DBC67543210E15F7000227A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC67542210E15F7000227A0 /* Assets.xcassets */; };
 		DBC67546210E15F7000227A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC67544210E15F7000227A0 /* LaunchScreen.storyboard */; };
 		DBC67551210E15F8000227A0 /* IntegrateSDK1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC67550210E15F8000227A0 /* IntegrateSDK1_0Tests.swift */; };
+		DBC6755E210E180A000227A0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC6755B210E180A000227A0 /* FBSDKCoreKit.framework */; };
+		DBC6755F210E180A000227A0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC6755C210E180A000227A0 /* Bolts.framework */; };
+		DBC67560210E180A000227A0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC6755D210E180A000227A0 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB408CC0211B432100EEF31C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		DBC67538210E15F7000227A0 /* IntegrateSDK1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrateSDK1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC6753B210E15F7000227A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBC6753D210E15F7000227A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,10 @@
 		DBC6754C210E15F8000227A0 /* IntegrateSDK1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegrateSDK1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC67550210E15F8000227A0 /* IntegrateSDK1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrateSDK1_0Tests.swift; sourceTree = "<group>"; };
 		DBC67552210E15F8000227A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC6755B210E180A000227A0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		DBC6755C210E180A000227A0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		DBC6755D210E180A000227A0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		DBC67563210E19B5000227A0 /* IntegrateSDK1.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntegrateSDK1.0-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB408CC1211B432100EEF31C /* FBSDKShareKit.framework in Frameworks */,
+				DBC6755E210E180A000227A0 /* FBSDKCoreKit.framework in Frameworks */,
+				DBC6755F210E180A000227A0 /* Bolts.framework in Frameworks */,
+				DBC67560210E180A000227A0 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,7 @@
 				DBC6753A210E15F7000227A0 /* IntegrateSDK1.0 */,
 				DBC6754F210E15F8000227A0 /* IntegrateSDK1.0Tests */,
 				DBC67539210E15F7000227A0 /* Products */,
+				DBC67563210E19B5000227A0 /* IntegrateSDK1.0-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +91,7 @@
 		DBC6753A210E15F7000227A0 /* IntegrateSDK1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				DBC67562210E182C000227A0 /* frameworks */,
 				DBC6753B210E15F7000227A0 /* AppDelegate.swift */,
 				DBC6753D210E15F7000227A0 /* ViewController.swift */,
 				DBC6753F210E15F7000227A0 /* Main.storyboard */,
@@ -94,6 +109,17 @@
 				DBC67552210E15F8000227A0 /* Info.plist */,
 			);
 			path = IntegrateSDK1.0Tests;
+			sourceTree = "<group>";
+		};
+		DBC67562210E182C000227A0 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB408CC0211B432100EEF31C /* FBSDKShareKit.framework */,
+				DBC6755C210E180A000227A0 /* Bolts.framework */,
+				DBC6755B210E180A000227A0 /* FBSDKCoreKit.framework */,
+				DBC6755D210E180A000227A0 /* FBSDKLoginKit.framework */,
+			);
+			path = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +172,7 @@
 				TargetAttributes = {
 					DBC67537210E15F7000227A0 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					DBC6754B210E15F8000227A0 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -358,7 +385,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IntegrateSDK1.0",
+					"$(PROJECT_DIR)/IntegrateSDK1.0/frameworks",
+				);
 				INFOPLIST_FILE = IntegrateSDK1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -366,6 +399,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.david.IntegrateSDK1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntegrateSDK1.0-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -375,7 +410,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IntegrateSDK1.0",
+					"$(PROJECT_DIR)/IntegrateSDK1.0/frameworks",
+				);
 				INFOPLIST_FILE = IntegrateSDK1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -383,6 +424,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.david.IntegrateSDK1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntegrateSDK1.0-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

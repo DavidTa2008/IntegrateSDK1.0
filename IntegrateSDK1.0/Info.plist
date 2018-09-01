@@ -41,5 +41,31 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <!-- add Facebook SDK -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb433790793782503</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>433790793782503</string>
+    <key>FacebookDisplayName</key>
+    <string>IntegrateSDK1.0</string>
+    
+    <!-- that can perform an app switch to Facebook -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fb-messenger-share-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
+    </array>
+    <!-- end add Facebook SDK-->
+    
 </dict>
 </plist>
